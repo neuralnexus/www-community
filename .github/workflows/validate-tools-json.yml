@@ -52,4 +52,4 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo,
             body: `**The following issues were identified, when validating against the [schema](https://github.com/OWASP/www-community/blob/master/tools_schema.json):**\n\n<details><summary>Summary (click the triangle/control to the left to expand)</summary>\n\n\`\`\`\n${logString}\n\`\`\`\n\n</details>`
-          })\n
+          })
